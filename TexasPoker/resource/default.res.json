@@ -1,0 +1,361 @@
+{
+	"groups": [
+		{
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,egret_icon_png,description_json,game_background_png,gamescreen,RangeMoneyGold_png,board_1,board_2,board_3,board_4,poker_bg_png,poker_bg2_png,ic_background loding_png,loginResource_json,bg_edittext_png,progressArc_png,undefineHeadIcon_jpg,loading_run,recharge,lobbyUi",
+			"name": "preload"
+		},
+		{
+			"keys": "egret_icon_png,ic_progress_bar_png,bg_background_png,bg_progress_bar_png,ic_logo_png",
+			"name": "loading"
+		},
+		{
+			"keys": "bg_lobby_mp3,all_buttons_mp3,wager_sound_mp3,remind_me_mp3,Licensing_mp3,countdown_reminder_mp3,card_rotation_mp3,male_with_mp3,male_plus_mp3,male_discard_mp3,male_allin_mp3,girl_with_mp3,girl_plus_mp3,girl_discard_mp3,girl_allin_mp3,too_mp3,Jackpot_long_mp3,Jackpot_short_mp3,disappear_mp3,appear_mp3,puls_Sound_mp3",
+			"name": "sound"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/game_background.png",
+			"type": "image",
+			"name": "game_background_png"
+		},
+		{
+			"url": "assets/gamescreen.json",
+			"type": "sheet",
+			"name": "gamescreen",
+			"subkeys": "back,chip_1000-2500,chip_2500-5000,chip_300-1000,chip_50-300,chip_5000_more,chooseImg,greenButton,moveButton,orangeButton,poker_left,poker_right,purpleBigButton,purpleCheckBox,purpleNormalButton,rangeMoney,redButton"
+		},
+		{
+			"url": "assets/RangeMoneyGold.png",
+			"type": "image",
+			"name": "RangeMoneyGold_png"
+		},
+		{
+			"url": "assets/Board/board_1.json",
+			"type": "sheet",
+			"name": "board_1",
+			"subkeys": "102,103,104,105,106,107,108,109,110,111,112,113,114"
+		},
+		{
+			"url": "assets/Board/board_2.json",
+			"type": "sheet",
+			"name": "board_2",
+			"subkeys": "202,203,204,205,206,207,208,209,210,211,212,213,214"
+		},
+		{
+			"url": "assets/Board/board_3.json",
+			"type": "sheet",
+			"name": "board_3",
+			"subkeys": "302,303,304,305,306,307,308,309,310,311,312,313,314"
+		},
+		{
+			"url": "assets/Board/board_4.json",
+			"type": "sheet",
+			"name": "board_4",
+			"subkeys": "402,403,404,405,406,407,408,409,410,411,412,413,414"
+		},
+		{
+			"url": "assets/poker_bg.png",
+			"type": "image",
+			"name": "poker_bg_png"
+		},
+		{
+			"url": "assets/poker_bg.png",
+			"type": "image",
+			"name": "poker_bg2_png"
+		},
+		{
+			"url": "assets/LoadUI/ic_progress_bar.png",
+			"type": "image",
+			"name": "ic_progress_bar_png"
+		},
+		{
+			"url": "assets/LoadUI/bg_background.png",
+			"type": "image",
+			"name": "bg_background_png"
+		},
+		{
+			"url": "assets/LoadUI/bg_progress_bar.png",
+			"type": "image",
+			"name": "bg_progress_bar_png"
+		},
+		{
+			"url": "assets/LoadUI/ic_logo.png",
+			"type": "image",
+			"name": "ic_logo_png"
+		},
+		{
+			"url": "assets/ic_background loding.png",
+			"type": "image",
+			"name": "ic_background loding_png"
+		},
+		{
+			"url": "assets/LoadUI/loginResource.json",
+			"type": "sheet",
+			"name": "loginResource_json",
+			"subkeys": "bg_login,fonts_Reset,fonts_account,fonts_register,ic_account_login,ic_account_press,ic_agreement,ic_check,ic_close,ic_complete,ic_complete_press,ic_next_step.,ic_next_step_press,ic_register,ic_register_press,ic_sign_in,ic_sign_in_press,ic_tourist,ic_touristx_press"
+		},
+		{
+			"url": "assets/LoadUI/bg_edittext.png",
+			"type": "image",
+			"name": "bg_edittext_png"
+		},
+		{
+			"url": "assets/progressArc.png",
+			"type": "image",
+			"name": "progressArc_png"
+		},
+		{
+			"url": "assets/undefineHeadIcon.jpg",
+			"type": "image",
+			"name": "undefineHeadIcon_jpg"
+		},
+		{
+			"url": "assets/LoadUI/ic_loding.png",
+			"type": "image",
+			"name": "loading_run"
+		},
+		{
+			"url": "assets/Sound/Voice/girl_allin.mp3",
+			"type": "sound",
+			"name": "girl_allin_mp3"
+		},
+		{
+			"url": "assets/Sound/Voice/girl_discard.mp3",
+			"type": "sound",
+			"name": "girl_discard_mp3"
+		},
+		{
+			"url": "assets/Sound/Voice/girl_plus.mp3",
+			"type": "sound",
+			"name": "girl_plus_mp3"
+		},
+		{
+			"url": "assets/Sound/Voice/girl_with.mp3",
+			"type": "sound",
+			"name": "girl_with_mp3"
+		},
+		{
+			"url": "assets/Sound/Voice/male_allin.mp3",
+			"type": "sound",
+			"name": "male_allin_mp3"
+		},
+		{
+			"url": "assets/Sound/Voice/male_discard.mp3",
+			"type": "sound",
+			"name": "male_discard_mp3"
+		},
+		{
+			"url": "assets/Sound/Voice/male_plus.mp3",
+			"type": "sound",
+			"name": "male_plus_mp3"
+		},
+		{
+			"url": "assets/Sound/Voice/male_with.mp3",
+			"type": "sound",
+			"name": "male_with_mp3"
+		},
+		{
+			"url": "assets/Sound/background_music/bg_lobby.mp3",
+			"type": "sound",
+			"name": "bg_lobby_mp3"
+		},
+		{
+			"url": "assets/Sound/button_click/all_buttons.mp3",
+			"type": "sound",
+			"name": "all_buttons_mp3"
+		},
+		{
+			"url": "assets/Sound/prompt_sound/card_rotation.mp3",
+			"type": "sound",
+			"name": "card_rotation_mp3"
+		},
+		{
+			"url": "assets/Sound/prompt_sound/countdown_reminder.mp3",
+			"type": "sound",
+			"name": "countdown_reminder_mp3"
+		},
+		{
+			"url": "assets/Sound/prompt_sound/Licensing.mp3",
+			"type": "sound",
+			"name": "Licensing_mp3"
+		},
+		{
+			"url": "assets/Sound/prompt_sound/remind_me.mp3",
+			"type": "sound",
+			"name": "remind_me_mp3"
+		},
+		{
+			"url": "assets/Sound/prompt_sound/wager_sound.mp3",
+			"type": "sound",
+			"name": "wager_sound_mp3"
+		},
+		{
+			"url": "assets/Sound/Voice/too.mp3",
+			"type": "sound",
+			"name": "too_mp3"
+		},
+		{
+			"url": "assets/Sound/prompt_sound/Jackpot_long.mp3",
+			"type": "sound",
+			"name": "Jackpot_long_mp3"
+		},
+		{
+			"url": "assets/Sound/prompt_sound/Jackpot_short.mp3",
+			"type": "sound",
+			"name": "Jackpot_short_mp3"
+		},
+		{
+			"url": "assets/LobbyUI/recharge.json",
+			"type": "sheet",
+			"name": "recharge",
+			"subkeys": "bg_frame,bg_recharge,btn_coin_30,btn_coin_30_click,btn_coin_6,btn_coin_64,btn_coin_64_click,btn_coin_6_click,btn_diamond_100,btn_diamond_100_click,btn_diamond_30,btn_diamond_30_click,btn_diamond_360,btn_diamond_360_click,coin_buy,coin_conver,ic_diamond_300.png,ic_diamond_60,ic_diamond_640.png,ic_gold_100000,ic_gold_30000,ic_gold_360000"
+		},
+		{
+			"url": "assets/LobbyUI/lobbyUi.json",
+			"type": "sheet",
+			"name": "lobbyUi",
+			"subkeys": "bg_bottom,bg_diamonds,bg_gold,bg_lobby,ic_Ranking,ic_activity,ic_activity_click,ic_add_to,ic_add_to_click,ic_fd,ic_fd.click,ic_friends,ic_friends_click,ic_game,ic_game_click,ic_mailbox,ic_mailbox_click,ic_match,ic_match_click,ic_ranking_click,ic_set_up,ic_set_up_click,ic_shopping,ic_start,ic_start_click"
+		},
+		{
+			"name": "disappear_mp3",
+			"type": "sound",
+			"url": "assets/Sound/prompt_sound/disappear.mp3"
+		},
+		{
+			"name": "appear_mp3",
+			"type": "sound",
+			"url": "assets/Sound/prompt_sound/appear.mp3"
+		},
+		{
+			"name": "puls_Sound_mp3",
+			"type": "sound",
+			"url": "assets/Sound/prompt_sound/puls_Sound.mp3"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+  "engineVersion": "5.1.6",
+  "compilerVersion": "5.1.6",
+  "template": {},
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "socket"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "res"
+    },
+    {
+      "name": "experimental"
+    },
+    {
+      "name": "puremvc",
+      "path": "./libs/puremvc"
+    }
+  ]
+}

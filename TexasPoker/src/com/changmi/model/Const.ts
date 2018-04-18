@@ -1,0 +1,39 @@
+
+enum PokerType {
+	PC_POKER_MATCH = 40,
+	PC_NEW_ADDRESS = 41,
+	PC_CREATE_ADDRESS = 42,
+	PC_POKER_ADDRESS = 43,
+	PC_POKER_BALANCE = 44,
+	PC_POKER_HANDLE = 45,
+	PC_POKER_PUBKEY = 46,
+	PC_POKER_PUBKEY_VERIFY = 47,
+	PC_POKER_SSH = 48,
+	PC_POKER_SHUFFLE = 49,
+	PC_POKER_HAND_CARD = 50,
+
+	PC_POKER_FLOP_CARD = 51,
+	PC_POKER_OPEN_HAND = 52,
+	PC_POKER_BET = 80,
+	PC_POKER_HISTORY = 90
+}
+
+enum PokerCode {
+	MATCH = 28,
+	MATCHING = 29,
+	BALANCE = 30,
+	SHUFFLE = 31,
+	HAND_CARD = 32,
+	OPEN_HAND = 36,
+	BET = 40,
+	HISTORY = 50,
+	WINNER = 60
+}
+
+const COIN: number = 100000000;
+const MIN_WALLET_BALANCE: number = 10;  // 玩游戏最少要求的金额
+const DEFAULT_TX_MONEY: number = 0.001; // 默认交易的转账金额
+const DEFAULT_TX_FEE: number = 1000000;  // 默认手续费(单位为聪)
+
+const SMALL_BLIND_BET: number = 5;  // 小盲下注
+const BIG_BLIND_BET: number = 10;   // 大盲下注
